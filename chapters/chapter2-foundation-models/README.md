@@ -57,9 +57,6 @@ On Windows PowerShell: `Copy-Item -Recurse -Force chapters\chapter2-foundation-m
 
 That adds the following at your workspace root. Your Chapter 1 agent and `write-report-simple` skill stay as they are:
 
-> 🚧 **New MCP path.** 
-> * MCPs now live in .mcp.json?
-
 ```
 .github/skills/
   write-report-segmentation/      Part 1 report skill (complete)

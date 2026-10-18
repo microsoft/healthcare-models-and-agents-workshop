@@ -14,8 +14,6 @@ Budget about **30 min setup** (do this before arriving) + **60 min content** acr
 
 ## Workshop layout
 
-> 🚧 **Placeholder — lab contents.** Confirm once everything is in place, especially data.
-
 - [`chapters/`](chapters/) — one folder per chapter. Each has a `README.md`, a `starter/` skeleton, and an `answer-key/` reference.
 - [`samples/`](samples/) — de-identified post-contrast brain MRI volumes (NIfTI) you can hand to the agent. See [samples/README.md](samples/README.md).
 - [`docs/`](docs/) — troubleshooting, Codespaces, and no-admin setup guides.
@@ -26,7 +24,6 @@ Budget about **30 min setup** (do this before arriving) + **60 min content** acr
 
 Install and verify the following **before** the workshop. Expect about 30 minutes of setup. Do this before arriving — Wi-Fi and time will be tight on the day.
 
-> 🚧 **Placeholder — lab environment.** Confirm whether participants get a pre-provisioned lab VM or bring their own machine, and trim this section accordingly.
 
 - **VS Code** (latest stable): https://code.visualstudio.com/
 - **GitHub Copilot** and **GitHub Copilot Chat** extensions, signed in with an account that has Copilot access.
