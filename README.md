@@ -4,7 +4,7 @@
 
 Budget about **30 min setup** (do this before arriving) + **60 min content** across the three chapters.
 
-<p align="center"><img src="docs/brain-lesion-segmentation-workshop.svg" alt="Workshop overview: three chapters — agent and skill, MedImageParse segmentation via MCP, and patient context — take a brain MRI to a measured, radiologist-reviewed draft report." width="480"></p>
+![Workshop overview: three chapters — agent and skill, MedImageParse segmentation via MCP, and patient context — take a brain MRI to a measured, radiologist-reviewed draft report.](docs/brain-lesion-segmentation-workshop.svg)
 
 ## What you'll build
 
