@@ -119,6 +119,8 @@ What you should see:
 - ✅ Chapter 3 mentions the steroids and the CT midline shift; Chapter 2 has no way to know about them.
 - ⚠️ The measurements are the same, apart from small run-to-run differences in the model's output. The improvement comes from context, not a smarter model or new tools. 
 
+> **Improving tool and measurement compliance.** At this point our list of skills and tools becomes rather complex and simpler models, may start breaking - ignoring instructions, not completing tool calls, calling tools incorrectly, etc. If you see this behavior, try using the [improved-compliance answer key](answer-key-improved-compliance) to set up a new agent and update the skills it uses. Observe the changes and how editing instructions can help you achieve improvements without bringing in more expensive models.
+
 ## (Optional) Extra credit
 
 Pick one:
