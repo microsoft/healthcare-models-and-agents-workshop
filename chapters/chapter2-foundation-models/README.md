@@ -93,7 +93,7 @@ Three things matter here:
 - **Type hints.** MCP builds the tool's input schema from them. `image_path`, `model`, and `prompts` are required.
 - **Docstring as description.** The agent reads `segment`'s docstring to learn which prompts to send and what comes back.
 
-Save, then run `MCP: List Servers` from the command palette (`Ctrl/Cmd+Shift+P`). In the window that opened, select the `medimageparse` server and press "start" icon.
+Save, then run `MCP: List Servers` from the command palette (`Ctrl/Cmd+Shift+P`). In the list that opens, select the `medimageparse` server, then select its **Start** icon.
 
 > Open **View → Output → Agent Host** for the startup log.
 
@@ -142,7 +142,7 @@ Now open the folder the reply ends with, `audit-log/samples/mri-brain-lesions/ca
 
 > **Why this matters.** `write-report-simple` is unchanged from Chapter 1, and the agent file gained only a tool entry and an updated workflow step. You added a vision capability by registering an MCP tool.
 
-If the MCP server fails to run, ensure your workspace is added to VSCode's Trusted Workspaces (see [Troubleshooting](../../docs/troubleshooting.md#mcp-server-is-not-discovered))
+If the MCP server fails to start, make sure the workspace is trusted in VS Code (see [Troubleshooting](../../docs/troubleshooting.md#mcp-server-is-not-discovered)).
 
 ## Part 2 — Measure
 

@@ -4,7 +4,7 @@
 
 > Stuck? See [docs/troubleshooting.md](../../docs/troubleshooting.md).
 
-**Prerequisites:** Workshop-level setup from the repo root [`README.md`](../../README.md) complete — VS Code with the GitHub Copilot Chat extension signed in, this repo cloned and open as your workspace, and `uv sync` run from the repo root. When you open workspace in vscode, make sure to confirm that this is a **trusted workspace** when prompt appears.
+**Prerequisites:** Workshop-level setup from the repo root [`README.md`](../../README.md) complete — VS Code with the GitHub Copilot Chat extension signed in, this repo cloned and open as your workspace, and `uv sync` run from the repo root. When you open the workspace in VS Code, confirm that it's a **trusted workspace** when prompted.
 
 ## Overview
 
@@ -54,8 +54,11 @@ Please write a radiology report for samples/mri-brain-lesions/case-056/2017-06-1
 When VS Code first asks for permission to run a tool, select **Allow All**.
 
 Run it on 2-3 different images. Note a few things:
-- **Output drift** Notice that section names drift, structure is unpredictable, measurements are not done
-- **Inconsistency**. Run it a few times. Note how output changes. Note how every time generated code is a bit if not significantly different. Try asking it to measure the lesion.
+
+- **Output drift.** Section names drift, structure is unpredictable, and confidence isn't called out separately.
+- **Inconsistency.** Run it a few times and note how the output changes. The code the agent writes to read the image also differs from run to run, sometimes significantly.
+- **Sizes.** The agent has pixels, not millimeters: no pixel spacing and no mask. If the report quotes a lesion size like "3.4 × 2.8 cm", that number is a guess dressed up as a measurement. If it doesn't, try asking it to measure the lesion.
+- **Sides.** Brain MRI is displayed in radiological convention: the patient's *right* is on the image *left*. Check whether the agent put the lesion on the correct side.
 
 Keep one of the outputs visible — you'll compare against it after Step 3.
 
