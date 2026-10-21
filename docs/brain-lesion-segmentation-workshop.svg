@@ -7,7 +7,7 @@
     <rect x="48" y="39" width="28" height="5" fill="#087F78"/>
     <text x="89" y="48" font-size="17" font-weight="700" fill="#526169">HANDS-ON WORKSHOP</text>
     <text x="48" y="111" font-size="53" font-weight="700" fill="#202C32">From MRI to a measured report</text>
-    <text x="48" y="157" font-size="25" fill="#526169">A brain lesion reporting agent grounded in MedImageParse</text>
+    <text x="48" y="157" font-size="25" fill="#526169">A brain lesion agent grounded in MedImageParse</text>
 
     <path d="M96 211 H325 M387 211 H616" fill="none" stroke="#CEDBD9" stroke-width="2"/>
     <path d="M318 206 L325 211 L318 216 M609 206 L616 211 L609 216" fill="none" stroke="#8EA5A2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -102,7 +102,7 @@
       <path d="M444 668 H486 M478 662 L486 668 L478 674"/>
     </g>
     <text x="125" y="677" font-size="25" fill="#245F51">Masks + pixel spacing</text>
-    <text x="514" y="677" font-size="25" font-weight="700" fill="#245F51">Side + diameters</text>
+    <text x="514" y="677" font-size="25" font-weight="700" fill="#245F51">Volumes + diameters</text>
     <path d="M798 699 V721 M791 713 L798 721 L805 713" fill="none" stroke="#087F78" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 
     <text x="48" y="737" font-size="17" font-weight="700" fill="#526169">SEGMENTATION OVERLAY</text>
